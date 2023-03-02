@@ -1,0 +1,31 @@
+INSTALACIÓN DE IIS
+
+1. Panel de contro > programas > (activar o desactivar las características de windows) Intener Information Services
+2. Iniciar programa desde el menú
+
+
+-------------------------------------------------------------------------------------------------------------------
+HOST EN IIS
+
+1. Ruta de las carpetas: C:\inetpub
+2. Creamos las carpetas contenedoras del index
+3. Volvemos al programa en la barra izquierda buscampos en el directorio sitios y hacemos click derecho
+	3.1 Agregar sitio web
+
+4. Modificar el Hosts
+	4.1 Abrir el CMD como administrador
+	4.2 Ruta del host: C:\Windows\System32\drivers\etc
+
+
+-------------------------------------------------------------------------------------------------------------------
+CERTIFICADO DIGITAL
+
+1. ISS barra izquierda del programa y buscamo el equipo hacemos doble click
+2. Buscamos la opción de Certificados de Servidor
+3. A la derecha del programa buscamos "Crear Certificado autofirmado"
+
+4. A la barra izquierda del programa ISS "Default Web Site"
+	4.1 A la barra de la derecha y buscamos "Enlaces"
+	4.2 Agregar
+	4.3 Seleccionamos el https y el certificado
+	4.4 Debe de hacerse para cada página web
